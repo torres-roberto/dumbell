@@ -3,23 +3,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <form>
-        <label for="exercise">Exercise</label>
-        <input type="text" id="exercise" name="exercise">
-        <br>
-        <br>
-        <label for="weight">Weight</label> 
-        <input type="text" id="weight" name="weight">
-        <br>
-        <br>
-        <label for="reps">Reps</label>
-        <input type="text" id="reps" name="reps">
-    </form>
-    <button onclick="addExercise()">Add Exercise</button>
-
+    <h1>Dumbell</h1>
+    <ul class="exercise-cards-list">
+        <li class="exercise-card">
+            <div id="exercise-count-id" class="exercise-count">1</div>
+            <form>
+                <label for="exercise">Exercise</label>
+                <input type="text" id="exercise" name="exercise">
+                <br>
+                <br>
+                <label for="weight">Weight</label> 
+                <input type="text" id="weight" name="weight">
+                <br>
+                <br>
+                <label for="reps">Reps</label>
+                <input type="text" id="reps" name="reps">
+            </form>
+            <button onclick="nextExercise()">Next</button>
+            <button onclick="allExercises()">All</button>
+        </li>
+    </ul>
     <script src="script.js"></script>
 </body>
 </html>
+
+

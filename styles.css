@@ -1,0 +1,61 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+input {
+    width: 100%;
+}
+
+/* Make the header Dumbell at the top left of the screen */
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 0 0 0 5px;
+}
+
+
+
+.exercise-card {
+    position: relative; /* Add this */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.exercise-card {
+    max-width: 50%;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.exercise-count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Remove bullet from li */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
